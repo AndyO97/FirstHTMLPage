@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Title of page
+        </title>
+        <meta charset="UTF-8"/>
+        <!--For latinamerican keyboard-->
+    </head>
+    <body>
+        <h1>
+            Header (1-6)
+        </h1>
+        <!--Comment block goes here-->
+        <p>
+            Paragraph
+        </p>
+        <a href="https://google.com"> 
+            <!--recommeneded to use ./other/home.html-->
+            Link
+        </a>
+        <a href="./../index.html">
+            Index
+        </a>
+
+        <img src="./path/to/image" alt="Image of a dog"/> 
+        <!--The alt will display the text if the image is not found-->
+        <ol>
+            <li>
+                One
+            </li>
+            <li>
+                Two
+            </li>
+        </ol>
+        <ul>
+            <li>
+                One
+            </li>
+            <li>
+                Two
+            </li>
+        </ul>
+        <!--1. One
+            2. Two
+            -One
+            -Two    -->
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        Column 1
+                    </th>
+                    <th>
+                        Column 2
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        Data 1
+                    </td>
+                    <td>
+                        Data 2
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    Foot    
+                </tr>
+            </tfoot>
+        </table>
+        <form>
+            <fieldset>
+                <legend>
+                    Title of form
+                </legend>
+                <div>
+                    <label for="user-name">
+                        Username:
+                    </label>
+                    <input type="text" id="user-name" class="info" name="user"/>
+                </div>
+                <div>
+                    <input type="password"/>
+                </div>
+                <div>
+                    <label for="range_1">
+                        From 10-20
+                    </label>
+                    <input type="checkbox" value="10_20" id="range_1" name="age_range"/>
+                </div>
+                <div>
+                    <label for="range_2">
+                        From 21-30
+                    </label>
+                    <input type="checkbox" name="age_range" id="range_2" value="21_30"/>
+                    <!-- type="radio" will only let us check one value-->
+                </div>
+
+                <label for="country">
+                    Select a country
+                </label>
+                <select name="country" id="country">
+                    <option value="MX">
+                        Mexico
+                    </option>
+                    <option value="FR">
+                        France
+                    </option>
+                </select>
+
+                <textarea name="comment" >
+
+                </textarea>
+                <input type="submit" value="submit">
+                <button type="submit">
+                    submit
+                </button>
+
+                <input type="number"/>
+                <input type="date"/>
+                <input type="email"/>
+                <input type="tel"/>
+                
+            </fieldset>
+        </form>
+    </body>
+</html>
