@@ -10,6 +10,9 @@
             git add file.ext
         </li>
         <li>
+            git commit -m "Message"
+        </li>
+        <li>
             git remote add origin url-to-github
         </li>
         <li>
